@@ -1,13 +1,34 @@
 Bootstrap-Env
 ========================
 
-A bunch of shell / puppet project to enable me bootstrap my dev environments from groundup.
+A Vagrant + Chef Solo based development workstation bootstrapper.
 
-1. configure-shell.sh  
-2. configure-emacs.sh
-3. configure-dotfiles.sh
-4. install-packages.sh
+#### pre-requisites ####
+```
+   # install vagrant.
+   http://downloads.vagrantup.com/
 
-5. install-hadoop.sh
-6. install-cassandra.sh
+   # chef gems for vagrant vm provisoning.
+   $ gem install chef
+   $ gem install librarian-chef
+```
+
+#### bootstrap vm ####
+```
+   $ librarian-chef install
+   $ vagrant up
+```
+
+#### adding packages ####
+- few packages are added to base/ developer roles.
+- to be updated.
+
+#### customize shell environment ####
+- configure-shell.sh  
+- configure-emacs.sh
+- configure-dotfiles.sh
+- install-packages.sh
+- install-hadoop.sh
+- install-cassandra.sh
+
 
