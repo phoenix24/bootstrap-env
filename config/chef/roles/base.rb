@@ -1,16 +1,18 @@
 name "base"
 description "Base role applied to all machines"
-run_list(
-	"recipe[users::sysadmins]",
-	"recipe[sudo]",
-	"recipe[apt]"
+
+run_list %w(
+ recpie[users::sysadmins]
+ recipe[user::data_bag]
+ recipe[sudo]
 )
 
 default_attributes(
-	:authorization => {
-		:sudo => {
-			:users => %w(csharma),
-			:passwordless => true
-		}
-	}
+ :authorization => {
+   :sudo => {
+     :users => %w(csharma),
+     :groups => %w(admin wheel sysadmin),
+     :passwordless => true
+   }
+ }
 )
