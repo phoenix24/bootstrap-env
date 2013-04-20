@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'apt', '>= 1.9.2'
+cookbook 'sudo', '>= 2.0.4'
+cookbook 'users', '>= 1.4.0'
+
+cookbook 'vim', '>= 1.0.2'
+cookbook 'emacs', '>= 0.9.0'
+
+cookbook 'mysql', '>= 3.0.0'
+cookbook 'apache2', '>= 1.0.0'
+
+cookbook 'git', '>= 2.5.0'
+cookbook 'build-essential', '>= 1.4.0'
+
+# cookbook 'chef-client'
+
+# cookbook 'rvm',
+#   :git => 'https://github.com/fnichol/chef-rvm'
+
+# cookbook 'postgresql',
+#   :git => 'https://github.com/findsyou/cookbooks',
+#   :ref => 'postgresql-improvements'

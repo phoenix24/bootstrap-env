@@ -1,0 +1,8 @@
+{
+	"id": "csharma",
+	"groups": [ "sysadmin", "root", "csharma" ],
+	"password": "1$xEg5uk38$aPH0oi6wOo0KiLlVfxUwY0",
+	"uid": 2001,
+	"shell": "\/bin\/bash"
+}
+
