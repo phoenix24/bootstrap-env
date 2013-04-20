@@ -2,7 +2,7 @@ name "base"
 description "Base role applied to all machines"
 
 run_list %w(
- recpie[users::sysadmins]
+ recipe[users::sysadmins]
  recipe[user::data_bag]
  recipe[sudo]
 )
