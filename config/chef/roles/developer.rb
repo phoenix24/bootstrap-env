@@ -6,11 +6,6 @@ run_list %w(
 )
 
 default_attributes(
- :mysql => {
-   :server_root_password => "pass-1-5-6-woo",
-   :server_repl_password => "pass-1-5-6-bar",
-   :server_debian_password => "pass-1-5-6-hoo"
- },
  :java => {
    :install_flavor => "oracle",
    :oracle => {
