@@ -5,8 +5,8 @@ A Vagrant + Chef Solo based development workstation bootstrapper.
 
 #### pre-requisites ####
 ```
-   # install vagrant.
-   http://downloads.vagrantup.com/
+   # install virtual-box or vmware as a vagrant provider.
+   # install vagrant-http://downloads.vagrantup.com/
 
    # chef gems for vagrant vm provisoning.
    $ gem install chef
@@ -28,7 +28,4 @@ A Vagrant + Chef Solo based development workstation bootstrapper.
 - configure-emacs.sh
 - configure-dotfiles.sh
 - install-packages.sh
-- install-hadoop.sh
-- install-cassandra.sh
-
 
