@@ -2,7 +2,6 @@
     "id": "csharma",
     "home": "/home/csharma",
     "comment": "Chaitanya Sharma",
-    "ssh_keys": [
+    "ssh_keys": [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDiXrTAoCvs9s6oUetZaf3Jf+p8ob2iQL0/N60T+BCWUKKfXx2G9S+T9+C/KXS+sjTZIbcuB8seTo76nSBKlKDKwF68MFCs0twwPx3XbpwWMaJXeA2s+0rx3KxeRzgV72VtfyTdsf9sZHWlsiWSiHuggKRsFOYQvpgfPNZ62QEdTJPS8csm0vvbtEld+0hu6eiZuY25z0LWFPWZhurCFWQjU840DncAnkBmkjKuSAKGPO6ji0IuO+1DXtmRYkmgYS8FzicBdswxcAP8DEXl9lo3RGujEcWc71MbtRFY9mJ3a7KjkvOphWlQrZPgNBMRdGNhQZAWaRNj08GjTbY8sZuL csharma@local.domain"
     ]
 }
-
