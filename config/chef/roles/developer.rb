@@ -2,7 +2,9 @@ name "developer"
 description "Role for combined Development Box, used for Developer VMs"
 
 run_list %w(
-	role[base]
+ role[base]
+ recipe[apt]
+ recipe[docker]
 )
 
 default_attributes(
