@@ -6,7 +6,7 @@ site 'http://community.opscode.com/api/v1'
 cookbook 'apt', '>= 1.9.2'
 cookbook 'sudo', '>= 2.0.4'
 cookbook 'user', '>= 0.3.0'
-cookbook 'users', '>= 1.4.0'
+# cookbook 'users', '>= 1.4.0'
 
 # cookbook 'vim', '>= 1.0.2'
 cookbook 'emacs', '>= 0.9.0'
@@ -48,8 +48,8 @@ cookbook 'emacs', '>= 0.9.0'
 # cookbook 'subversion', '>= 1.0.2'
 # cookbook 'build-essential', '>= 1.4.0'
 
-cookbook 'docker',
-  :git => 'https://github.com/thoward/docker-cookbook'
+# cookbook 'docker',
+#   :git => 'https://github.com/thoward/docker-cookbook'
 
 # cookbook 'chef-client'
 

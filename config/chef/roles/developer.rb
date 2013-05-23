@@ -4,7 +4,6 @@ description "Role for combined Development Box, used for Developer VMs"
 run_list %w(
  role[base]
  recipe[apt]
- recipe[docker]
 )
 
 default_attributes(
