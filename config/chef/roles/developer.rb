@@ -5,6 +5,8 @@ run_list %w(
  role[base]
  recipe[apt]
 
+ recipe[htop]
+ recipe[curl]
  recipe[emacs]
 
  recipe[git]

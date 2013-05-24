@@ -22,8 +22,8 @@ cookbook 'emacs', '>= 0.9.0'
 # cookbook 'zsh', '>= 1.0.0'
 # cookbook 'oh-my-zsh-solo', '>= 0.3.3'
 
-# cookbook 'htop', '>= 1.0.0'
-# cookbook 'curl', '>= 1.1.0'
+cookbook 'htop', '>= 1.0.0'
+cookbook 'curl', '>= 1.1.0'
 
 # cookbook 'hostname', '>= 0.0.4'
 # cookbook 'openvpn', '>= 1.1.0'
