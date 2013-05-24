@@ -7,7 +7,9 @@ run_list %w(
  recipe[htop]
  recipe[curl]
  recipe[emacs]
- recipe[mysql]
+
+ recipe[mysql::client]
+ recipe[mysql::server]
 
  recipe[java]
  recipe[build-essential]
@@ -20,6 +22,7 @@ run_list %w(
 
 default_attributes(
  :java => {
+   :install_flavor => "oracle",
    :oracle => {
      "accept_oracle_download_terms" => true
    }
@@ -34,6 +37,10 @@ default_attributes(
  :maven => {
    :version => 3,
    :steup_bin => true
+ },
+ :mysql => {
+   :server_root_password => "123",
+   :server_debian_password => "123"
  }
 )
 override_attributes(
