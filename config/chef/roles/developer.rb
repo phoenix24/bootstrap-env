@@ -39,6 +39,7 @@ default_attributes(
    :steup_bin => true
  },
  :mysql => {
+   :server_repl_password => "123",
    :server_root_password => "123",
    :server_debian_password => "123"
  }
