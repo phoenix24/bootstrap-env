@@ -10,6 +10,8 @@ run_list %w(
  recipe[emacs]
 
  recipe[git]
+
+ recipe[java]
  recipe[build-essential]
 )
 
