@@ -2,11 +2,16 @@ Bootstrap-Env
 ========================
 
 A Vagrant + Chef Solo based development workstation bootstrapper.
+An Ubuntu-12.04 provisionerless box provided by opscode is used for bootstrapping.
 
 #### pre-requisites ####
 ```
    # install virtual-box or vmware as a vagrant provider.
-   # install vagrant-http://downloads.vagrantup.com/
+
+   # install vagrant 1.2.x
+   $ wget http://downloads.vagrantup.com/
+   $ vagrant plugin install vagrant-vbguest
+   $ vagrant plugin install vagrant-omnibus
 
    # chef gems for vagrant vm provisoning.
    $ gem install chef

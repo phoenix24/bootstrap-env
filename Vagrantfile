@@ -4,6 +4,8 @@
 Vagrant.configure("2") do |config|
   # vagrant plugins.
   config.omnibus.chef_version = :latest
+  config.vbguest.no_remote = true
+  config.vbguest.auto_update = false
 
   # vagrant box to build off of.
   config.vm.box = "opscode-ubuntu-12.04"
@@ -13,6 +15,11 @@ Vagrant.configure("2") do |config|
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
   config.vm.network :forwarded_port, guest: 80, host: 8080
+
+  # ssh configuration.
+  # config.ssh.username = "csharma"
+  # config.ssh.private_key_path = "config/ssh/id_vagrant"
+  config.ssh.forward_agent = true
 
   # Private network, for host-only access to the machine using a specific IP.
   # config.vm.network :private_network, ip: "192.168.33.10"
