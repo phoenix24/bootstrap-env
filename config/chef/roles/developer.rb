@@ -10,6 +10,10 @@ run_list %w(
  recipe[emacs]
 
  recipe[git]
+ recipe[subversion]
+
+ recipe[mysql::server]
+ recipe[mysql::client]
 
  recipe[java]
  recipe[build-essential]
@@ -25,13 +29,6 @@ default_attributes(
  },
  :python => {
    :install_method => "pip"
- },
- :authorization => {
-   :sudo => {
-     :users => %w(csharma vagrant),
-     :groups => %w(admin wheel sysadmin),
-     :passwordless => true
-   }
  },
  :maven => {
    :version => 3,

@@ -10,7 +10,7 @@ cookbook 'user', '>= 0.3.0'
 # cookbook 'vim', '>= 1.0.2'
 cookbook 'emacs', '>= 0.9.0'
 
-# cookbook 'mysql', '>= 3.0.0'
+cookbook 'mysql', '>= 3.0.0'
 # cookbook 'apache2', '>= 1.0.0'
 
 cookbook 'java', '>= 1.11.4'
@@ -44,7 +44,7 @@ cookbook 'curl', '>= 1.1.0'
 
 cookbook 'git', '>= 2.5.0'
 # cookbook 'mercurial', '>= 1.1.4'
-# cookbook 'subversion', '>= 1.0.2'
+cookbook 'subversion', '>= 1.0.2'
 
 # cookbook 'maven', '>= 0.16.2'
 cookbook 'build-essential', '>= 1.4.0'
