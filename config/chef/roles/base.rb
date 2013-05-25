@@ -9,7 +9,7 @@ run_list %w(
 default_attributes(
  :authorization => {
    :sudo => {
-     :users => %w(csharma),
+     :users => %w(csharma vagrant),
      :groups => %w(admin wheel sysadmin),
      :passwordless => true
    }
