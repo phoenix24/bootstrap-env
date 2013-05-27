@@ -7,6 +7,9 @@ run_list %w(
 
  recipe[htop]
  recipe[curl]
+
+ recipe[shell]
+ recipe[vim]
  recipe[emacs]
 
  recipe[git]
